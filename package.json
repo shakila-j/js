@@ -17,7 +17,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "dev": "webpack"
+    "dev": "webpack",
+    "watch": "npm run dev"
   },
   "author": "",
   "license": "ISC"

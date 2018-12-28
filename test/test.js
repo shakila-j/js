@@ -41,7 +41,6 @@ describe('multiplayNumeric', function() {
 });
 
 
-"use stricr"
 function multiplayNumeric(menu) {
     for(let prop in menu) {
         menu[prop] *= 2;
@@ -134,12 +133,11 @@ alert(calculator.mul());
 /************************************************** ladder */
 
 describe('ladder', function() {
-  it("up and down", function() {
-    assert.equal(showStep(1),1);
+  it('up()', function() {
+    assert.equal(ladder.up(), ladder);
   });
 });
 
-"use strict"
 let ladder ={
     step:0,
     up(){
