@@ -106,34 +106,12 @@ let schedule ={
 
 console.log(isEmpty(schedule));
 
-/******************************************************calculator */
-
-describe('calculator', function() {
-  it("sum x + y", function() {
-    assert.equal(sum(2, 3), 5);
-  });
-});
-
-"use strict"
-let calculator ={
-    read(){
-        this.x = +prompt("enter your first nuber");
-        this.y = +prompt("enter your second number");
-    },
-
-    sum(){ return this.x + this.y;},
-
-    mul(){ return this.x * this.y;}
-};
-calculator.read();
-alert(calculator.sum());
-alert(calculator.mul());
 
 
 /************************************************** ladder */
 
 describe('ladder', function() {
-  it('up()', function() {
+  it('up', function() {
     assert.equal(ladder.up(), ladder);
   });
 });
@@ -155,3 +133,6 @@ let ladder ={
 }
 
 ladder.up().up().down().showStep();
+
+
+/**************************************************** */
